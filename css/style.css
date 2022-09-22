@@ -1,7 +1,7 @@
 body {
   background-color: #b7b9ba;
   width: 100%;
-
+  font-family: raleway;
 }
 header {
   background-color: #003049;
@@ -49,20 +49,31 @@ main {
 
 section {
   display: flex;
-  justify-content: center
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 40px;
 }
 
 article {
   display: flex;
   justify-content: space-between;
+  flex-direction: column; 
+  padding-left: 50px;
 }
 
 p {
   overflow: auto;
 }
 
+h2 {
+  font-weight: bold;
+}
 button {
+  margin-top: 10px;
   transition: 350ms;
+  width: 350px;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 button:hover {
@@ -72,8 +83,7 @@ button:hover {
 
 footer {
   background-color: #003049;
-  width: 100%;
+  width: 94%;
   padding: 50px;
   margin-top: 20 px;
-  /* margin: auto; */
 }
